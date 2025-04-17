@@ -13,3 +13,6 @@ use ("sale_clothes")
 
 //listar documento
 db.prenda.find()
+
+//contar documento
+db.prenda.find().count()
