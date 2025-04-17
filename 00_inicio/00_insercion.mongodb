@@ -1,0 +1,15 @@
+use ("sale_clothes")
+
+//crear una coleccion
+/*db.prenda.insertOne(
+    {
+        nombre:"Camisa",
+        marca:"Van Husen",
+        precio:75.50,
+        color: ["azul", "verde","rojo",],
+        stock: 50
+    }
+)*/
+
+//listar documento
+db.prenda.find()
